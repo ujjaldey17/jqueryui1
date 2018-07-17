@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>jquery</title>
+  </head>
+  <body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="anim" style="width: 100px; height: 100px; background-color: aqua;">
+                <button class="btn1">click here</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-success app">append</button>
+            <button class="btn btn-success pre">prepend</button>
+            <h1>hello guys</h1>
+            <h2 class="add-app">welcome to home</h2>
+            <h2 class="add-pre">what is going on</h2>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+           <button class="btn btn-danger" id="afld">click here</button>
+            <div class="input-group">
+<p class="adding">Full Name: <input type="text" name="fName"></p>
+</div>
+       <button class="click">click it</button>
+<ul>
+  <li class="pop">read it</li>
+  <li class="pop">accept it</li>
+  <li class="pop">ok</li>
+</ul><br>
+<br>
+        <ul class="list-inline">
+<li><a class="btn btn-primary" id="home" href="home">Home</a></li>
+<li><a class="btn btn-primary" id="about" href="about" >About</a></li>
+</ul>
+<hr>		                 
+<div id="content"></div>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="draggable" class="ui-widget-content">
+  <p>Scroll set to true, default settings</p>
+</div>
+ 
+<div id="draggable2" class="ui-widget-content">
+  <p>scrollSensitivity set to 100</p>
+</div>
+ 
+<div id="draggable3" class="ui-widget-content">
+  <p>scrollSpeed set to 100</p>
+</div>
+ 
+<div style="height: 200px; width: 1px;"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 exmaple1">
+            <ul class="exmaple1">
+  <li id="draggable5" class="ui-state-highlight exmaple11">Drag me down</li>
+</ul>
+ 
+<ul id="sortable5" class="exmaple1">
+  <li class="ui-state-default exmaple11">Item 1</li>
+  <li class="ui-state-default exmaple11">Item 2</li>
+  <li class="ui-state-default exmaple11">Item 3</li>
+  <li class="ui-state-default exmaple11">Item 4</li>
+  <li class="ui-state-default exmaple11">Item 5</li>
+</ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="ui-widget ui-helper-clearfix">
+ 
+<ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">High Tatras</h5>
+    <img src="images/80%20(1).jpeg" alt="The peaks of High Tatras" width="96" height="72">
+    <a href="images/high_tatras.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">High Tatras 2</h5>
+    <img src="images/80%20(1).jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
+    <a href="images/high_tatras2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">High Tatras 3</h5>
+    <img src="images/80%20(2).jpeg" alt="Planning the ascent" width="96" height="72">
+    <a href="images/80%20(2).jpeg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+  <li class="ui-widget-content ui-corner-tr">
+    <h5 class="ui-widget-header">High Tatras 4</h5>
+    <img src="images/80%20(1).jpg" alt="On top of Kozi kopka" width="96" height="72">
+    <a href="images/80%20(1).jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+    <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+  </li>
+</ul>
+ 
+<div id="trash" class="ui-widget-content ui-state-default">
+  <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+</div>
+ 
+</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="draggable-nonvalid" class="ui-widget-content">
+  <p>I'm draggable but can't be dropped</p>
+</div>
+ 
+<div id="draggable6" class="ui-widget-content">
+  <p>Drag me to my target</p>
+</div>
+ 
+<div id="droppable6" class="ui-widget-header">
+  <p>accept: '#draggable'</p>
+</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+  </div>
+</div>
+ 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="ui-widget">
+  <label>Your preferred programming language: </label>
+  <select id="combobox">
+    <option value="">Select one...</option>
+    <option value="ActionScript">ActionScript</option>
+    <option value="AppleScript">AppleScript</option>
+    <option value="Asp">Asp</option>
+    <option value="BASIC">BASIC</option>
+    <option value="C">C</option>
+    <option value="C++">C++</option>
+    <option value="Clojure">Clojure</option>
+    <option value="COBOL">COBOL</option>
+    <option value="ColdFusion">ColdFusion</option>
+    <option value="Erlang">Erlang</option>
+    <option value="Fortran">Fortran</option>
+    <option value="Groovy">Groovy</option>
+    <option value="Haskell">Haskell</option>
+    <option value="Java">Java</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="Lisp">Lisp</option>
+    <option value="Perl">Perl</option>
+    <option value="PHP">PHP</option>
+    <option value="Python">Python</option>
+    <option value="Ruby">Ruby</option>
+    <option value="Scala">Scala</option>
+    <option value="Scheme">Scheme</option>
+  </select>
+</div>
+<button id="toggle8">Show underlying select</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="controls">
+  <div class="brand-wrap">
+    <h3>1.) Select a brand</h3>
+    <div class="brand">
+      <label for="brand-jquery">jQuery</label>
+      <input type="radio" name="brand" id="brand-jquery" data-background-color="#0769AD" data-color="#7ACEF4" data-background-image="url(images/jquery.png)">
+      <label for="brand-jquery-ui">jQuery UI</label>
+      <input type="radio" name="brand" id="brand-jquery-ui" data-background-color="#B24926" data-color="#FAA523" data-background-image="url(images/jquery-ui.png)" checked>
+      <label for="brand-jquery-mobile">jQuery Mobile</label>
+      <input type="radio" name="brand" id="brand-jquery-mobile" data-background-color="#108040" data-color="#3EB249" data-background-image="url(images/jquery-mobile.png)">
+      <label for="brand-sizzle">Sizzle</label>
+      <input type="radio" name="brand" id="brand-sizzle" data-background-color="#9A1B1E" data-color="#FAA523" data-background-image="url(images/sizzle.png)">
+      <label for="brand-qunit">QUnit</label>
+      <input type="radio" name="brand" id="brand-qunit" data-background-color="#390F39" data-color="#9C3493" data-background-image="url(images/qunit.png)">
+    </div>
+  </div>
+  <div class="shape-wrap">
+    <h3>2.) Select a shape</h3>
+    <div class="shape-bar">
+      <label for="shape-circle">Circle</label>
+      <input type="radio" name="shape" id="shape-circle" value="circle" checked>
+      <label for="shape-square">Square</label>
+      <input type="radio" name="shape" id="shape-square" value="square">
+      <label for="shape-pill">Pill</label>
+      <input type="radio" name="shape" id="shape-pill" value="pill">
+      <label for="shape-rectangle">Rectangle</label>
+      <input type="radio" name="shape" id="shape-rectangle" value="rectangle">
+    </div>
+  </div>
+  <div class="toggle-wrap">
+    <h3>3.) Customize</h3>
+    <div class="toggles">
+      <label for="color">Shadow</label>
+      <input class="toggle brand-toggle" type="checkbox" name="color" id="color">
+      <label for="border">Border</label>
+      <input class="toggle" type="checkbox" name="border" id="border">
+      <label for="background-color">Background</label>
+      <input class="toggle brand-toggle" type="checkbox" name="background-color" id="background-color" checked>
+      <label for="background-image">Background Image</label>
+      <input class="toggle brand-toggle" type="checkbox" name="background-image" id="background-image" checked>
+    </div>
+  </div>
+  <div class="shape circle background jquery-ui"></div>
+</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="widget">
+  <h1>Controlgroup</h1>
+  <fieldset>
+    <legend>Rental Car</legend>
+    <div class="controlgroup">
+      <select id="car-type">
+        <option>Compact car</option>
+        <option>Midsize car</option>
+        <option>Full size car</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+        <option>Truck</option>
+        <option>Van</option>
+      </select>
+      <label for="transmission-standard">Standard</label>
+      <input type="radio" name="transmission" id="transmission-standard">
+      <label for="transmission-automatic">Automatic</label>
+      <input type="radio" name="transmission" id="transmission-automatic">
+      <label for="insurance">Insurance</label>
+      <input type="checkbox" name="insurance" id="insurance">
+      <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+      <input id="horizontal-spinner" class="ui-spinner-input">
+      <button>Book Now!</button>
+    </div>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Rental Car</legend>
+    <div class="controlgroup-vertical">
+      <select>
+        <option>Compact car</option>
+        <option>Midsize car</option>
+        <option>Full size car</option>
+        <option>SUV</option>
+        <option>Luxury</option>
+        <option>Truck</option>
+        <option>Van</option>
+      </select>
+      <label for="transmission-standard-v">Standard</label>
+      <input type="radio" name="transmission-v" id="transmission-standard-v">
+      <label for="transmission-automatic-v">Automatic</label>
+      <input type="radio" name="transmission-v" id="transmission-automatic-v">
+      <label for="insurance-v">Insurance</label>
+      <input type="checkbox" name="insurance" id="insurance-v">
+      <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+      <input id="vertical-spinner" class="ui-spinner-input">
+      <button id="book">Book Now!</button>
+    </div>
+  </fieldset>
+</div>
+        </div>
+    </div>
+    
+</div>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="js/jquery-1.12.4.js"></script>
+   <script src="js/jquery-ui.js"></script>
+     <script>
+      $(document).ready(function(){
+   $(".btn1").click(function(){
+      $(".anim").animate({width:"200px"});
+   });
+    $(".anim").mouseleave(function(){
+      $(".anim").animate({width:"100px"}); 
+   });
+    $(".app").click(function(){
+       $(".add-app").append("<b>find your room</b>");
+    });
+    $(".pre").click(function(){
+       $(".add-pre").prepend("<b>hey</b>");
+    });
+        $("#afld").click(function(){
+        var label=prompt("Enter Label");
+        var type=prompt("Enter Type");
+        var name=prompt("Enter Name");
+        if(label && type && name){
+            $(".adding").append("<p>"+label+":"+" <input type='"+type+"' name='"+name+"' >"+"</p>");
+        }
+
+    });
+    $(".click").click(function(){
+        $(".pop").each(function(){
+            alert($(this).text())
+        });
+    });
+$("#content").load("../js/app.js");
+    $("ul li a").click(function() {
+        var page = $(this).attr("href");
+        $("#content").load("../js/app.js");
+        return false;
+    });
+    
+    $( function() {
+    $( "#draggable" ).draggable({ scroll: true });
+    $( "#draggable2" ).draggable({ scroll: true, scrollSensitivity: 100 });
+    $( "#draggable3" ).draggable({ scroll: true, scrollSpeed: 100 });
+  } );
+     $( function() {
+    $( "#sortable5" ).sortable({
+      revert: true
+    });
+    $( "#draggable5" ).draggable({
+      connectToSortable: "#sortable",
+      helper: "clone",
+      revert: "invalid"
+    });
+    $( ".exmaple1 , .exmaple11" ).disableSelection();
+  } );
+    
+    $( function() {
+ 
+    // There's the gallery and the trash
+    var $gallery = $( "#gallery" ),
+      $trash = $( "#trash" );
+ 
+    // Let the gallery items be draggable
+    $( "li", $gallery ).draggable({
+      cancel: "a.ui-icon", // clicking an icon won't initiate dragging
+      revert: "invalid", // when not dropped, the item will revert back to its initial position
+      containment: "document",
+      helper: "clone",
+      cursor: "move"
+    });
+ 
+    // Let the trash be droppable, accepting the gallery items
+    $trash.droppable({
+      accept: "#gallery > li",
+      classes: {
+        "ui-droppable-active": "ui-state-highlight"
+      },
+      drop: function( event, ui ) {
+        deleteImage( ui.draggable );
+      }
+    });
+ 
+    // Let the gallery be droppable as well, accepting items from the trash
+    $gallery.droppable({
+      accept: "#trash li",
+      classes: {
+        "ui-droppable-active": "custom-state-active"
+      },
+      drop: function( event, ui ) {
+        recycleImage( ui.draggable );
+      }
+    });
+ 
+    // Image deletion function
+    var recycle_icon = "<a href='link/to/recycle/script/when/we/have/js/off' title='Recycle this image' class='ui-icon ui-icon-refresh'>Recycle image</a>";
+    function deleteImage( $item ) {
+      $item.fadeOut(function() {
+        var $list = $( "ul", $trash ).length ?
+          $( "ul", $trash ) :
+          $( "<ul class='gallery ui-helper-reset'/>" ).appendTo( $trash );
+ 
+        $item.find( "a.ui-icon-trash" ).remove();
+        $item.append( recycle_icon ).appendTo( $list ).fadeIn(function() {
+          $item
+            .animate({ width: "48px" })
+            .find( "img" )
+              .animate({ height: "36px" });
+        });
+      });
+    }
+ 
+    // Image recycle function
+    var trash_icon = "<a href='link/to/trash/script/when/we/have/js/off' title='Delete this image' class='ui-icon ui-icon-trash'>Delete image</a>";
+    function recycleImage( $item ) {
+      $item.fadeOut(function() {
+        $item
+          .find( "a.ui-icon-refresh" )
+            .remove()
+          .end()
+          .css( "width", "96px")
+          .append( trash_icon )
+          .find( "img" )
+            .css( "height", "72px" )
+          .end()
+          .appendTo( $gallery )
+          .fadeIn();
+      });
+    }
+ 
+    // Image preview function, demonstrating the ui.dialog used as a modal window
+    function viewLargerImage( $link ) {
+      var src = $link.attr( "href" ),
+        title = $link.siblings( "img" ).attr( "alt" ),
+        $modal = $( "img[src$='" + src + "']" );
+ 
+      if ( $modal.length ) {
+        $modal.dialog( "open" );
+      } else {
+        var img = $( "<img alt='" + title + "' width='384' height='288' style='display: none; padding: 8px;' />" )
+          .attr( "src", src ).appendTo( "body" );
+        setTimeout(function() {
+          img.dialog({
+            title: title,
+            width: 400,
+            modal: true
+          });
+        }, 1 );
+      }
+    }
+ 
+    // Resolve the icons behavior with event delegation
+    $( "ul.gallery > li" ).on( "click", function( event ) {
+      var $item = $( this ),
+        $target = $( event.target );
+ 
+      if ( $target.is( "a.ui-icon-trash" ) ) {
+        deleteImage( $item );
+      } else if ( $target.is( "a.ui-icon-zoomin" ) ) {
+        viewLargerImage( $target );
+      } else if ( $target.is( "a.ui-icon-refresh" ) ) {
+        recycleImage( $item );
+      }
+ 
+      return false;
+    });
+  } );
+    $( function() {
+    $( "#draggable6, #draggable-nonvalid" ).draggable();
+    $( "#droppable6" ).droppable({
+      accept: "#draggable6",
+      classes: {
+        "ui-droppable-active": "ui-state-active",
+        "ui-droppable-hover": "ui-state-hover"
+      },
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Dropped!" );
+      }
+    });
+  } );
+    $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+    
+     $( function() {
+    $.widget( "custom.combobox", {
+      _create: function() {
+        this.wrapper = $( "<span>" )
+          .addClass( "custom-combobox" )
+          .insertAfter( this.element );
+ 
+        this.element.hide();
+        this._createAutocomplete();
+        this._createShowAllButton();
+      },
+ 
+      _createAutocomplete: function() {
+        var selected = this.element.children( ":selected" ),
+          value = selected.val() ? selected.text() : "";
+ 
+        this.input = $( "<input>" )
+          .appendTo( this.wrapper )
+          .val( value )
+          .attr( "title", "" )
+          .addClass( "custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left" )
+          .autocomplete({
+            delay: 0,
+            minLength: 0,
+            source: $.proxy( this, "_source" )
+          })
+          .tooltip({
+            classes: {
+              "ui-tooltip": "ui-state-highlight"
+            }
+          });
+ 
+        this._on( this.input, {
+          autocompleteselect: function( event, ui ) {
+            ui.item.option.selected = true;
+            this._trigger( "select", event, {
+              item: ui.item.option
+            });
+          },
+ 
+          autocompletechange: "_removeIfInvalid"
+        });
+      },
+ 
+      _createShowAllButton: function() {
+        var input = this.input,
+          wasOpen = false;
+ 
+        $( "<a>" )
+          .attr( "tabIndex", -1 )
+          .attr( "title", "Show All Items" )
+          .tooltip()
+          .appendTo( this.wrapper )
+          .button({
+            icons: {
+              primary: "ui-icon-triangle-1-s"
+            },
+            text: false
+          })
+          .removeClass( "ui-corner-all" )
+          .addClass( "custom-combobox-toggle ui-corner-right" )
+          .on( "mousedown", function() {
+            wasOpen = input.autocomplete( "widget" ).is( ":visible" );
+          })
+          .on( "click", function() {
+            input.trigger( "focus" );
+ 
+            // Close if already visible
+            if ( wasOpen ) {
+              return;
+            }
+ 
+            // Pass empty string as value to search for, displaying all results
+            input.autocomplete( "search", "" );
+          });
+      },
+ 
+      _source: function( request, response ) {
+        var matcher = new RegExp( $.ui.autocomplete.escapeRegex(request.term), "i" );
+        response( this.element.children( "option" ).map(function() {
+          var text = $( this ).text();
+          if ( this.value && ( !request.term || matcher.test(text) ) )
+            return {
+              label: text,
+              value: text,
+              option: this
+            };
+        }) );
+      },
+ 
+      _removeIfInvalid: function( event, ui ) {
+ 
+        // Selected an item, nothing to do
+        if ( ui.item ) {
+          return;
+        }
+ 
+        // Search for a match (case-insensitive)
+        var value = this.input.val(),
+          valueLowerCase = value.toLowerCase(),
+          valid = false;
+        this.element.children( "option" ).each(function() {
+          if ( $( this ).text().toLowerCase() === valueLowerCase ) {
+            this.selected = valid = true;
+            return false;
+          }
+        });
+ 
+        // Found a match, nothing to do
+        if ( valid ) {
+          return;
+        }
+ 
+        // Remove invalid value
+        this.input
+          .val( "" )
+          .attr( "title", value + " didn't match any item" )
+          .tooltip( "open" );
+        this.element.val( "" );
+        this._delay(function() {
+          this.input.tooltip( "close" ).attr( "title", "" );
+        }, 2500 );
+        this.input.autocomplete( "instance" ).term = "";
+      },
+ 
+      _destroy: function() {
+        this.wrapper.remove();
+        this.element.show();
+      }
+    });
+ 
+    $( "#combobox" ).combobox();
+    $( "#toggle8" ).on( "click", function() {
+      $( "#combobox" ).toggle();
+    });
+  } );
+    $( function() {
+    function handleShape( e ) {
+      $( ".shape" )
+        .removeClass( "circle pill square rectangle" )
+        .addClass( $( e.target ).val() );
+    };
+    function handleToggle( e ) {
+      var target = $( e.target );
+ 
+      if ( target.is( ".brand-toggle" ) ) {
+        var checked = target.is( ":checked" ),
+          value = $( "[name='brand']" )
+            .filter( ":checked" )
+            .attr( "data-" + target[ 0 ].id )
+        $( ".shape" ).css( target[ 0 ].id, checked ? value : "" );
+      } else {
+        $( ".shape" ).toggleClass( target[ 0 ].id, target.is( ":checked") );
+      }
+    }
+    function updateBrand() {
+      handleShape( { target: $( "[name='shape']:checked" ) } );
+      $( ".toggle:checked" ).each( function() {
+        handleToggle( { target: $( this ) } );
+      } );
+    }
+ 
+    // Initalize widgets
+    $( "input" ).checkboxradio();
+    $( ".shape-bar, .brand" ).controlgroup();
+    $( ".toggles" ).controlgroup( {
+      direction: "vertical"
+    } );
+ 
+    // Bind event handlers
+    $( "[name='shape']").on( "change", handleShape );
+    $( ".toggle" ).on( "change", handleToggle );
+    $( "[name='brand']").on( "change", updateBrand );
+ 
+    // Set initial values
+    updateBrand();
+  } );
+    $( function() {
+    $( ".controlgroup" ).controlgroup()
+    $( ".controlgroup-vertical" ).controlgroup({
+      "direction": "vertical"
+    });
+  } );
+    $( function() {
+    $( "#datepicker" ).datepicker();
+    $( "#format" ).on( "change", function() {
+      $( "#datepicker" ).datepicker( "option", "dateFormat", $( this ).val() );
+    });
+  } );
+      $( function() {
+    var progressTimer,
+      progressbar = $( "#progressbar" ),
+      progressLabel = $( ".progress-label" ),
+      dialogButtons = [{
+        text: "Cancel Download",
+        click: closeDownload
+      }],
+      dialog = $( "#dialog" ).dialog({
+        autoOpen: false,
+        closeOnEscape: false,
+        resizable: false,
+        buttons: dialogButtons,
+        open: function() {
+          progressTimer = setTimeout( progress, 2000 );
+        },
+        beforeClose: function() {
+          downloadButton.button( "option", {
+            disabled: false,
+            label: "Start Download"
+          });
+        }
+      }),
+      downloadButton = $( "#downloadButton" )
+        .button()
+        .on( "click", function() {
+          $( this ).button( "option", {
+            disabled: true,
+            label: "Downloading..."
+          });
+          dialog.dialog( "open" );
+        });
+ 
+    progressbar.progressbar({
+      value: false,
+      change: function() {
+        progressLabel.text( "Current Progress: " + progressbar.progressbar( "value" ) + "%" );
+      },
+      complete: function() {
+        progressLabel.text( "Complete!" );
+        dialog.dialog( "option", "buttons", [{
+          text: "Close",
+          click: closeDownload
+        }]);
+        $(".ui-dialog button").last().trigger( "focus" );
+      }
+    });
+ 
+    function progress() {
+      var val = progressbar.progressbar( "value" ) || 0;
+ 
+      progressbar.progressbar( "value", val + Math.floor( Math.random() * 3 ) );
+ 
+      if ( val <= 99 ) {
+        progressTimer = setTimeout( progress, 50 );
+      }
+    }
+ 
+    function closeDownload() {
+      clearTimeout( progressTimer );
+      dialog
+        .dialog( "option", "buttons", dialogButtons )
+        .dialog( "close" );
+      progressbar.progressbar( "value", false );
+      progressLabel
+        .text( "Starting download..." );
+      downloadButton.trigger( "focus" );
+    }
+  } );
+    $( function() {
+    var handle = $( "#custom-handle" );
+    $( "#slider" ).slider({
+      create: function() {
+        handle.text( $( this ).slider( "value" ) );
+      },
+      slide: function( event, ui ) {
+        handle.text( ui.value );
+      }
+    });
+  } );
+    $( function() {
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( "#tabs .li1" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
+  } );
+});
+      </script>
+      <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+         
+  </body>
+</html>
